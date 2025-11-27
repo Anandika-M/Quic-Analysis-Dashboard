@@ -28,10 +28,46 @@ A comprehensive network protocol analyzer that compares QUIC, TCP/TLS, and HTTPS
    - Web traffic analysis
    - TLS handshake detection
    - Application layer metrics
+## Project Structure 
+```bash
+   Quic-Analysis-Dashboard/
+QUIC/
+│
+├── __pycache__/          
+│   └── (Auto-generated Python bytecode files) # Python creates this folder automatically when running .py files.
+│
+├── analysis.py           # Functions for analyzing captured QUIC/HTTPS packet data.
+│
+├── app.py                # Main application script — runs the dashboard or monitoring interface.
+│
+├── https_capture.py      # Script to capture HTTPS traffic packets.
+│
+├── packet_capture_service.py   # Background/continuous packet capture service for QUIC/HTTPS.
+│
+├── packet_capture.py     # Core logic for capturing QUIC packets from network interfaces.
+│
+├── README.md             # Documentation describing the project, setup, usage, etc.
+│
+├── realtime_monitor.py   # Real-time monitoring module — live packet or traffic visualization.
+│
+├── requirements.txt      # List of required Python packages needed to run the project.
+│
+└── visualization.py      # Code for plotting/analyzing results (graphs, charts, visual dashboards).
+   ```
 
 ## Installation
 
 1. Clone or download the project files
+   ```bash
+      git clone https://github.com/Anandika-M/Quic-Analysis-Dashboard.git
+      cd Quic-Analysis-Dashboard
 2. Install dependencies:
    ```bash
-   pip install -r requirements.txt
+      pip install -r requirements.txt
+
+## Usage 
+
+1. Start the Real-Time Dashboard
+   ```bash
+      python app.py
+The app runs on streamlit platform and Dashboard opens at: http://127.0.0.1:8050/
