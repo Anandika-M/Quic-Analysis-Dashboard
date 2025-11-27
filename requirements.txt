@@ -1,0 +1,14 @@
+streamlit
+scapy==2.5.0
+pyshark
+matplotlib
+seaborn
+pandas
+numpy
+plotly
+psutil
+aioquic
+dpkt
+pyopenssl
+cryptography
+streamlit-autorefresh
