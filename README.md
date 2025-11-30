@@ -33,9 +33,6 @@ A comprehensive network protocol analyzer that compares QUIC, TCP/TLS, and HTTPS
    Quic-Analysis-Dashboard/
 QUIC/
 │
-├── __pycache__/          
-│   └── (Auto-generated Python bytecode files) # Python creates this folder automatically when running .py files.
-│
 ├── analysis.py           # Functions for analyzing captured QUIC/HTTPS packet data.
 │
 ├── app.py                # Main application script — runs the dashboard.
