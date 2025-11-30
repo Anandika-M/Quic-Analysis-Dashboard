@@ -38,7 +38,7 @@ QUIC/
 │
 ├── analysis.py           # Functions for analyzing captured QUIC/HTTPS packet data.
 │
-├── app.py                # Main application script — runs the dashboard or monitoring interface.
+├── app.py                # Main application script — runs the dashboard.
 │
 ├── https_capture.py      # Script to capture HTTPS traffic packets.
 │
